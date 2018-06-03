@@ -10,3 +10,4 @@
 > 9. `gg`可以跳转到文件头,`shift+g`可以跳转到文件末尾,`n+gg`可以跳转到第n行
 > 10. 使用`:sp + 文件名`可以水平分割窗口
 > 11. 使用`:vs + 文件名`可以垂直分割窗口  
+> 12. 对于包含头文件的C/C++项目,可能直接使用快捷键编译运行不行,可以通过命令行`gcc -Wall main.c other.c -o main`或者`g++ -Wall main.cpp other.cpp -o main`
