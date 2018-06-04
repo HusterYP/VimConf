@@ -13,3 +13,5 @@
 > 12. 对于包含头文件的C/C++项目,可能直接使用快捷键编译运行不行,可以通过命令行`gcc -Wall main.c other.c -o main`或者`g++ -Wall main.cpp other.cpp -o main`
 > 13. 对于C/C++的编译和运行,同样对于12的问题,可以直接在Vim窗口中使用`Asycrun gcc -Wall *.c -o  main`来编译和运行;当然,也可以通过自己编写`Makefile`文件来使用make命令来执行,关于make的使用可以[参见博客](http://www.ruanyifeng.com/blog/2015/02/make.html)
 > 14. 在Vim中可以通过`:pwd`来查看当前所在目录,同时可以通过`:cd path`来切换路径
+> 15. 使用`Ctl+F`可以搜索文件,可以方便的打开其他文件
+* 关于折叠: `zr`为打开折叠,`zm`为关闭折叠,都是以当前光标开始处
